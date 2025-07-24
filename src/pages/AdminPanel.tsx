@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { supabase } from "../supabaseClient";
-import { Download, Search, FileDown } from "lucide-react";
+import { Search, FileDown } from "lucide-react";
+
 
 export default function AdminPanel() {
   const navigate = useNavigate();

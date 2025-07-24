@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import App from './App.tsx'
+
 import Home from './pages/Home.tsx'
 import Solicitud from "./pages/Solicitud.tsx";
 import AdminLogin from "./pages/AdminLogin.tsx";
